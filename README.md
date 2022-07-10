@@ -51,4 +51,18 @@ Root, Header, Features
                            Path: node_modules/bootstrap/dist/css/bootstrap.min.css
 **Application Setup**
               
-
+      1.  $ ng new appName --no-strict
+       Inside project folder $ npm install --save bootstrap@3
+      2.  ng_modules-->bootstrap-->dist-->css
+       add a path in angular.json file (path should be relative to index.html file
+       ../node_modules/bootstrap/dist/css/bootstrap.css
+       
+       Example: 
+         "styles": [
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ],
+       3. ng serve     http://localhost:4200/
+            
+            
+            
