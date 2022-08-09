@@ -54,6 +54,9 @@ Root, Header, Features
               2. Install Bootstrap CSS Framework - npm install --save bootstrap@3
                            when using a project created with Angular CLI 6+ (check via ng v ), you'll have an angular.json  file instead of an .angular-cli.json  file. In that file, you still need to add Bootstrap to the styles[]  array a
                            Path: node_modules/bootstrap/dist/css/bootstrap.min.css
+              3. Clean up app.component.html //remove all content
+                 Clean up app.component.ts // remove content inside export class AppComponent {}
+                 
 **Application Setup**
               
       1.  $ ng new appName --no-strict
