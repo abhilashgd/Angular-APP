@@ -38,6 +38,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 -------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Planning the App
 
 Components - 
@@ -46,6 +47,10 @@ Root, Header, Features
 **Project Setup**
 
               1. project- Make sure, you do create that app by also adding the --no-strict flag to the ng new command 
+                      $ ng new abhilashgd-angular-app  --no-strict
+                             ? Would you like to add Angular routing? No
+                             ? Which stylesheet format would you like to use? CSS
+                      
               2. Install Bootstrap CSS Framework - npm install --save bootstrap@3
                            when using a project created with Angular CLI 6+ (check via ng v ), you'll have an angular.json  file instead of an .angular-cli.json  file. In that file, you still need to add Bootstrap to the styles[]  array a
                            Path: node_modules/bootstrap/dist/css/bootstrap.min.css
